@@ -3,7 +3,7 @@
 Provides a `cron_wom` resource that allows you to schedule cron jobs for a
 specific instance of a weekday within a month - for example, the first Monday.
 It also provides a workaround for not being able to set an empty `MAILTO`
-variable for cron jobs (see chef/chef#4900).
+variable for cron jobs (see [chef/chef#4900](https://github.com/chef/chef/issues/4900)).
 
 ## Requirements
 
