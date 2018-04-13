@@ -71,7 +71,7 @@ end
 
 action :create do
   nomail = check_mailto
-  cron task_name do
+  cron new_resource.task_name do
     command "#{get_week_test}#{new_resource.command}#{nomail}"
     day new_resource.day
     environment new_resource.environment

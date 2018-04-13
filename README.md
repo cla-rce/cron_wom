@@ -13,11 +13,7 @@ Should work on any Linux platform that Chef supports, but has only been tested
 on CentOS and Ubuntu.
 
 ### Chef
-- Chef 12.0+ (so we can use the newer resource syntax)
-
-### Cookbooks
-- [compat_resource](https://supermarket.chef.io/cookbooks/compat_resource)
-  (enables the Chef 12.5+ resource syntax for Chef 12.0-12.4 clients)
+- Chef 12.5+
 
 ## Usage
 

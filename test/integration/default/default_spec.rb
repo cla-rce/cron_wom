@@ -1,5 +1,3 @@
-require_relative './spec_helper'
-
 describe command("crontab -l") do
   jobs = []
   jobs << "0 9 * * 1-5 echo 'test1'"
